@@ -1,6 +1,6 @@
 import './globals.css'
 import type {Metadata} from 'next'
-import {Poppins} from 'next/font/google';
+import {Dancing_Script, Inter, Poppins} from 'next/font/google';
 import NavBarContainer from "@/components/NavBarContainer";
 import Footer from "@/components/Footer";
 
@@ -9,7 +9,7 @@ TODO:  Change these things along with:
   - avatar.jpeg in /public/images
   - favicon.ico in /public
  */
-const font = Poppins({ weight: '700', subsets: ['latin']})
+const font = Dancing_Script({ weight: '', subsets: ['latin']})
 const title = 'Abigail\'s Site';
 const description = 'This my personal site';
 const links = [
