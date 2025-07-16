@@ -9,7 +9,7 @@ TODO:  Change these things along with:
   - avatar.jpeg in /public/images
   - favicon.ico in /public
  */
-const font = Dancing_Script({ weight: '', subsets: ['latin']})
+const font = Dancing_Script({ weight: '700', subsets: ['latin']})
 const title = 'Abigail\'s Site';
 const description = 'This my personal site';
 const links = [
